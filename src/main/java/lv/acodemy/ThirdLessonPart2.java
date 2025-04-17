@@ -66,7 +66,7 @@ public class ThirdLessonPart2 {
     }
 
     public static int maxFromArray(int... numbers) {
-        int max = number[0];
+        int max = numbers[0];
 
         for(int i = 1; i < numbers.length; i++) {
             if(numbers[i] > max) {
